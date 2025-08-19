@@ -9,7 +9,7 @@ st.sidebar.title("Bot Settings")
 with st.sidebar:
     selected_model = st.selectbox(
         "Select Your Model",
-        ["gemini-2.5-pro", "gemini-2.5-flash", "gemini-2.0-flash", "gemini-1.5-flash"],
+        ["gemini-2.5-flash", "gemini-2.0-flash", "gemini-1.5-flash"],
         key="gemini_model"
     )
     gemini_api_key = st.text_input("Gemini API Key", key="gemini_api_key", type="password")
